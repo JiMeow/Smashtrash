@@ -104,7 +104,7 @@
 
 ### Schematic
 <p align="center">
-<img src="./Schematic/TrashOutput.png" width="700">
+<img src="./Schematic/TrashBinLock.png" width="700">
 </p>
 
 ## Members
