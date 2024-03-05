@@ -52,10 +52,36 @@
 <img src="./Schematic/TrashMeasure.png" width="700">
 </p>
 
+## 3. Trash Output (ระบบแสดงผลของถังขยะ)
+
+อุปกรณ์ที่ใช้
+
+1. NodeMCU ESP32 1 Unit.
+2. LED:Four Pin 1 Units.
+3. OLED 128x64 I2C Monochrome Display VDD-GND 1 Unit.
+
+ไลบราลี่
+
+1. Adafruit_GFX
+2. Adafruit_SSD1306
+3. ESP-NOW
+
+ระบบการทำงาน
+
+1. ใช้ ESP-NOW สำหรับรับค่าเปอร์เซ็นต์ของขยะในถังขยะ.
+2. รับค่ามาแล้วคำนวณเป็นสีของ LED (<50% -> Green, <75% -> Blue, else -> Red)
+3. คำนวณข้อมูลที่ต้องใช่ในการแสดงผลบนจอ OLED.
+4. แสดง Output สีของ LED และข้อความบนจอ OLED.
+
+### Schematic
+<p align="center">
+<img src="./Schematic/TrashOutput.png" width="700">
+</p>
+
 ## Members
 
-1. นายณัฏฐ์ ปรัชญกุล 6410500238
-2. xxx xxx 6410500xxx
+1. นายจิรัฏฐ์ มีวาสนา 6410500181
+2. นายณัฏฐ์ ปรัชญกุล 6410500238
 3. นายจตุพร บัดแก้ว 6410503997
 4. xxx xxx 6410500xxx
 
