@@ -115,5 +115,5 @@
 4. นายณพวิทย์ ศุกลปักษ์ 6410504098
 
 <p align="center">
-<img src="pics/IMG_5651.jpg" width="600">
+<img src="pics/Group.jpg" width="600">
 </p>
