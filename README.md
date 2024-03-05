@@ -26,7 +26,7 @@
 ### Schematic
 
 <p align="center">
-<img src="./Schematic/Trash-Opener.png" width="700">
+<img src="./Schematic/TrashOpener.png" width="700">
 </p>
 
 ## 2. TrashMeasure (ระบบวัดปริมาณขยะในถัง)
